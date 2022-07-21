@@ -38,3 +38,14 @@ Cualquier duda con estos métodos pueden consultarla por el campus
 
 print('Ahora si! buena suerte')
 # Empezar aquí la resolución del ejercicio
+
+
+print('Ingrese nombre completo')
+nombre = str(input())
+nombre_minus = nombre.lower()
+nombre_mayus = nombre.upper()
+primera_mayus = nombre.capitalize()
+
+print(nombre_minus)
+print(nombre_mayus)
+print(primera_mayus)
